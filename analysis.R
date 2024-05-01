@@ -1,2 +1,4 @@
 library(tidyverse)
-penguins 
+penguins <-read.csv("penguins.csv")
+penguins |> 
+  count(island)
